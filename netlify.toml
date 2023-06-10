@@ -1,9 +1,0 @@
-[build]
-  command = "npx prisma generate"
-  command = "npm run build"
-  publish = "build"
-
-
-[functions]
-directory = "netlify/functions"
-node_bundler = "esbuild"
